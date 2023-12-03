@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply bg-background text-color font-outfit;
+  }
+}
+
+@layer utilities {
+  .shadow-custom-purple {
+    --shadow-color: rgba(130, 71, 255, 0.2);
+    --shadow-offset-x: 0px;
+    --shadow-offset-y: 0px;
+    --shadow-blur: 0px;
+    --shadow-spread: 8px;
+
+    box-shadow: var(--shadow-color) var(--shadow-offset-x)
+      var(--shadow-offset-y) var(--shadow-blur) var(--shadow-spread);
+  }
+}
