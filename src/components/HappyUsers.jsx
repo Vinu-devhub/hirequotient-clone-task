@@ -35,7 +35,7 @@ const HappyUsers = () => {
               <span className=" text-primary">200+</span> Happy users
             </p>
             <img
-              src="/src/assets/features/happyusersmanagewise.webp"
+              src="/assets/features/happyusersmanagewise.webp"
               alt="users"
             />
           </div>

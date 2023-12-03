@@ -31,7 +31,7 @@ const Footer = () => {
           <div className=" w-full h-min flex flex-col md:flex-row justify-center md:justify-between   items-center md:items-start flex-none overflow-visible p-0 relative gap-10 ">
             <div className=" flex-none overflow-visible relative w-48 h-12">
               <img
-                src="/src/assets/logo/managewise_logo512.png"
+                src="/assets/logo/managewise_logo512.png"
                 alt="logo"
                 className=" block w-full h-full object-center object-cover"
               />

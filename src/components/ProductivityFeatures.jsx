@@ -86,7 +86,7 @@ const ProductivityFeatures = () => {
           </div>
           <div className=" max-w-[34.4rem] pt-14">
             <img
-              src="/src/assets/features/managewisesearchconnect.webp"
+              src="/assets/features/managewisesearchconnect.webp"
               alt="connect app image"
               className=" w-full h-full object-center object-cover"
             />

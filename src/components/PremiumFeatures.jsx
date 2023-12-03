@@ -41,7 +41,7 @@ const PremiumFeatures = () => {
             </div>
           </div>
           <ImageCard
-            imgsrc={"/src/assets/features/taskmanagement.webp"}
+            imgsrc={"/assets/features/taskmanagement.webp"}
             title={"Smart Task Management"}
             subtitle={
               "Say goodbye to chaos with our smart task management system"
@@ -51,17 +51,17 @@ const PremiumFeatures = () => {
 
         <div className=" grid grid-flow-row md:grid-flow-col gap-5 md:gap-10 col-span-1">
           <ImageCard
-            imgsrc={"/src/assets/features/flexscheduling.webp"}
+            imgsrc={"/assets/features/flexscheduling.webp"}
             title={"Flexible Scheduling"}
             subtitle={"Stay productive with our flexible scheduling system"}
           />
           <ImageCard
-            imgsrc={"/src/assets/features/easycommunication.webp"}
+            imgsrc={"/assets/features/easycommunication.webp"}
             title={"Easy Communication"}
             subtitle={"Collaborate seamlessly with your team in real-time"}
           />
           <ImageCard
-            imgsrc={"/src/assets/features/analytics.webp"}
+            imgsrc={"/assets/features/analytics.webp"}
             title={"Analytics"}
             subtitle={
               "Gain valuable insights with our advanced analytics feature"

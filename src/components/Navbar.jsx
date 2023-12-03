@@ -29,7 +29,7 @@ const Navbar = () => {
           <div className=" flex-none overflow-visible relative w-44 h-auto transform-none origin-center opacity-100">
             <div className=" top-0 right-0 bottom-0 left-0">
               <img
-                src="/src/assets/logo/managewise_logo512.png"
+                src="/assets/logo/managewise_logo512.png"
                 alt="logo"
                 sizes="180px"
                 className=" block w-full h-full object-center object-cover"
